@@ -1,7 +1,7 @@
 #intro-btn {
   font-size: 1.5em;
   border-radius: 25px;
-  color: #4fbfa8;
+  color: white;
   font-weight: 700;
   padding: 0.5em 2em;
   margin-bottom: 3em;
@@ -9,7 +9,9 @@
 }
 
 #intro-btn:hover {
-  color: white;
+  color: #4fbfa8;
+  background-color: transparent;
+  border: solid #4fbfa8 3px;
 }
 
 #intro-content {
@@ -23,7 +25,7 @@
 
 #footer-text {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -53,7 +55,12 @@
   color: #4fbfa8;
 }
 
-@media (max-width: 700px) {
+.github {
+  font-size: 3em;
+  color: white;
+}
+
+@media (max-width: 768px) {
   .hero-text {
     font-size: 3em;
   }
@@ -62,6 +69,10 @@
   }
   #type {
     font-size: 1.3em;
+  }
+
+  #footer-text {
+    margin-top: 2em;
   }
 }
 

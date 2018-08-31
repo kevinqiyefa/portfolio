@@ -310,7 +310,7 @@ function map() {
     marker.setMap(map);
 
     // Zoom to 9 when clicking on marker
-    google.maps.event.addListener(marker, 'click', function() {
+    new google.maps.event.addListener(marker, 'click', function() {
       map.setZoom(9);
       map.setCenter(marker.getPosition());
     });
