@@ -1,1 +1,77 @@
-/* your styles go here */
+#intro-btn {
+  font-size: 1.5em;
+  border-radius: 25px;
+  color: #4fbfa8;
+  font-weight: 700;
+  padding: 0.5em 2em;
+  margin-bottom: 3em;
+  border-width: 2px;
+}
+
+#intro-btn:hover {
+  color: white;
+}
+
+#intro-content {
+  padding-top: 5em;
+  padding-bottom: 8em;
+  /* color: #4fbfa8; */
+}
+#about-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#brand {
+  font-size: 2em;
+}
+
+.resume {
+  overflow: visible;
+}
+
+#resume-detail .close {
+  position: absolute;
+  right: 0;
+  z-index: 999;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+}
+
+#btns {
+  color: #4fbfa8;
+}
+
+@media (max-width: 700px) {
+  .hero-text {
+    font-size: 3em;
+  }
+  #intro-btn {
+    font-size: 1em;
+  }
+  #type {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-text {
+    font-size: 2em;
+  }
+
+  #intro-content {
+    padding-top: 2em;
+    padding-bottom: 3em;
+  }
+}
