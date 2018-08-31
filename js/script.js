@@ -9,9 +9,6 @@ window.onload = function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
-};
-
-window.onload = function getFooterText() {
   var d = new Date();
   var year = d.getFullYear();
   let text = `© ${year}  Kevin Qi | All rights reserved.`;
