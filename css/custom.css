@@ -65,6 +65,10 @@
   color: black;
 }
 
+.githubIcon {
+  margin-left: 5em;
+}
+
 @media (max-width: 768px) {
   .hero-text {
     font-size: 3em;
@@ -78,6 +82,10 @@
 
   #footer-text {
     margin-top: 2em;
+  }
+  .githubIcon {
+    margin-left: 0;
+    margin-top: 1em;
   }
 }
 
