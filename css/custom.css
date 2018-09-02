@@ -60,6 +60,11 @@
   color: white;
 }
 
+.github:hover {
+  font-size: 3em;
+  color: black;
+}
+
 @media (max-width: 768px) {
   .hero-text {
     font-size: 3em;

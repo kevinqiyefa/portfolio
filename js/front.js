@@ -67,7 +67,7 @@ $(function() {
   /* =========================================
      * google map
      *  =======================================*/
-  map();
+  // map();
 
   /* =========================================
      * parallax
@@ -296,23 +296,23 @@ $(function() {
   });
 });
 
-/* =========================================
- * styled Google Map
- *  =======================================*/
+// /* =========================================
+//  * styled Google Map
+//  *  =======================================*/
 
-function map() {
-  if ($('#map').length > 0) {
-    var myCenter = new google.maps.LatLng(37.773972, -122.431297);
-    var mapCanvas = document.getElementById('map');
-    var mapOptions = { center: myCenter, zoom: 13 };
-    var map = new google.maps.Map(mapCanvas, mapOptions);
-    var marker = new google.maps.Marker({ position: myCenter });
-    marker.setMap(map);
+// function map() {
+//   if ($('#map').length > 0) {
+//     var myCenter = new google.maps.LatLng(37.773972, -122.431297);
+//     var mapCanvas = document.getElementById('map');
+//     var mapOptions = { center: myCenter, zoom: 13 };
+//     var map = new google.maps.Map(mapCanvas, mapOptions);
+//     var marker = new google.maps.Marker({ position: myCenter });
+//     marker.setMap(map);
 
-    // Zoom to 9 when clicking on marker
-    new google.maps.event.addListener(marker, 'click', function() {
-      map.setZoom(9);
-      map.setCenter(marker.getPosition());
-    });
-  }
-}
+//     // Zoom to 9 when clicking on marker
+//     new google.maps.event.addListener(marker, 'click', function() {
+//       map.setZoom(9);
+//       map.setCenter(marker.getPosition());
+//     });
+//   }
+// }
