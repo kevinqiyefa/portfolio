@@ -1,6 +1,6 @@
 var i = 0;
 var txt =
-  'Computer Science graduate and full stack software engineer proficient in React, JavaScript, Express and Python.';
+  'Computer Science graduate and full stack software engineer proficient in React, JavaScript, and Express.';
 var speed = 50;
 
 window.onload = function typeWriter() {
